@@ -1,12 +1,14 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+import { Button, ButtonGroup, Grid, grid } from "@chakra-ui/react";
 import "./App.css";
 import { ChakraProvider } from "@chakra-ui/react";
+
 function App() {
   // const [count, setCount] = useState(0);
-  return <button>button</button>;
+  return <grid></grid>;
+  //  <button color="blue">button</button>;
 }
 //   return (
 //     <>
